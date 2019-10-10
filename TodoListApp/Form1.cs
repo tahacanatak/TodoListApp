@@ -10,8 +10,10 @@ using System.Windows.Forms;
 
 namespace TodoListApp
 {
+     
     public partial class Form1 : Form
     {
+        string aww = "ATAK";
         TodoListDbEntities db = new TodoListDbEntities();
         public Form1()
         {
